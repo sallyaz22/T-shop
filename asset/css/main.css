@@ -29,45 +29,45 @@ body {
 /* public end*/
 
 /* header start */
-.header {
-  padding:20px 1px;
+header {
+  padding: 20px 1px;
   background-color: white;
-  box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);;
+  box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.1);
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 9;
 }
-.header .logo {
+header .logo {
   display: flex;
   align-items: center;
   gap: 6px;
 }
-.header .row .logo img {
+header .row .logo img {
   width: 32px;
 }
-.header .row .logo a {
+header .row .logo a {
   color: #545be8;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
 }
-.header nav ul {
+header nav ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.header .row nav ul a {
+header .row nav ul a {
   color: #101928;
 }
-.header .row .active {
+header .row .active {
   font-weight: 800;
 }
-.header .row .auto {
+header .row .auto {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
-.header .auto a {
+header .auto a {
   padding: 6px 29px;
   border-radius: 10px;
   font-family: "Inter", sans-serif;
@@ -75,12 +75,12 @@ body {
   display: flex;
   align-items: center;
 }
-.header .row .auto .login {
+header .row .auto .login {
   border: 1px solid #545be8;
   color: #545be8;
   background-color: #fff;
 }
-.header .row .auto .register {
+header .row .auto .register {
   background-color: #545be8;
   color: #fff;
 }
